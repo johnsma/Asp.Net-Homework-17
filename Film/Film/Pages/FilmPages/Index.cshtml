@@ -1,0 +1,65 @@
+﻿@page
+@model IndexModel
+@{
+}
+<h2>My Films</h2>
+
+<div>
+    <a asp-page="Create"> Add New Film</a>
+
+    @if (Model.afterAddMessage != null)
+    {
+    <div>
+        @Model.afterAddMessage
+    </div>
+     }
+</div>
+<div>
+
+    @if(Model.myFilm.Count() > 0)
+    { 
+            <form method="post">
+                <div>
+                    <table class="w3-table-all">
+                        <tr class="w3-green">
+                            <th>
+                                @Html.DisplayNameFor(m => m.myFilm.FirstOrDefault().Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myFilm.FirstOrDefault().Year)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myFilm.FirstOrDefault().Length)
+                            </th>
+                            <th></th>
+                        </tr>
+                        @foreach (var item in Model.myFilm)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(m => item.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Year)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Length)
+                                </td>
+                                <td>
+                                    <a asp-page="Edit" asp-route-id="@item">Edit</a>
+                                    <button asp-page-handler="Delete" asp-route-id="@item.ID">&times;</button>
+                                </td>
+                            </tr>
+
+                        }
+                    </table>
+                </div>
+            </form>
+            }else
+            {
+            <p>No films currently</p>
+
+            }
+
+
+        </div>

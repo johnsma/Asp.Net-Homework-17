@@ -1,0 +1,26 @@
+﻿@page
+@model EditModel
+@{
+}
+<div>
+    <h2>Add Film Item</h2>
+</div>
+<div>
+    <form method="post">
+
+        <input asp-for="Connect.ID" type="hidden"/>
+
+        <input asp-for="Connect.Name" type="text" placeholder="Name" />
+        <span asp-validation-for="Connect.Name"></span>
+
+        <input asp-for="Connect.Year" type="text" placeholder="Year" />
+        <span asp-validation-for="Connect.Year"></span>
+
+        <input asp-for="Connect.Length" type="text" placeholder="Length" />
+        <span asp-validation-for="Connect.Length"></span>
+
+        <input type="submit" value="Edit Film" />
+        <a asp-page="Index">Back to Film List</a>
+
+    </form>
+</div>

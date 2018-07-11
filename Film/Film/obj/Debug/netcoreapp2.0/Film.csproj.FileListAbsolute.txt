@@ -1,0 +1,11 @@
+C:\Users\Maxine Johnson\source\repos\Film\Film\bin\Debug\netcoreapp2.0\Film.deps.json
+C:\Users\Maxine Johnson\source\repos\Film\Film\bin\Debug\netcoreapp2.0\Film.runtimeconfig.json
+C:\Users\Maxine Johnson\source\repos\Film\Film\bin\Debug\netcoreapp2.0\Film.runtimeconfig.dev.json
+C:\Users\Maxine Johnson\source\repos\Film\Film\bin\Debug\netcoreapp2.0\Film.dll
+C:\Users\Maxine Johnson\source\repos\Film\Film\bin\Debug\netcoreapp2.0\Film.pdb
+C:\Users\Maxine Johnson\source\repos\Film\Film\obj\Debug\netcoreapp2.0\Film.csprojAssemblyReference.cache
+C:\Users\Maxine Johnson\source\repos\Film\Film\obj\Debug\netcoreapp2.0\Film.csproj.CoreCompileInputs.cache
+C:\Users\Maxine Johnson\source\repos\Film\Film\obj\Debug\netcoreapp2.0\Film.AssemblyInfoInputs.cache
+C:\Users\Maxine Johnson\source\repos\Film\Film\obj\Debug\netcoreapp2.0\Film.AssemblyInfo.cs
+C:\Users\Maxine Johnson\source\repos\Film\Film\obj\Debug\netcoreapp2.0\Film.dll
+C:\Users\Maxine Johnson\source\repos\Film\Film\obj\Debug\netcoreapp2.0\Film.pdb
